@@ -41,6 +41,9 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
+    'class-methods-use-this': 'off',
+    'no-useless-constructor': 'off',
+    'no-empty-function': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [
       1,
